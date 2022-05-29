@@ -46,7 +46,7 @@
     <section id="home" class="main-banner start bg-client1-main">
         <div class="heading" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="3000">
             <!-- replace nama -->
-            <p class="balham guest" style="text-align:center;">for Mohammad Dhiki</p>
+            <p class="balham guest" style="text-align:center;">for Mohammad Dhikri</p>
             <p class="balham inpit" style="text-align:center;">you are invited</p>
             <div class="container" style="text-align:center;">
                 <h1 class="edward">Anastya & Rifqi</h1>
@@ -185,6 +185,32 @@
     </section>
 
 
+    <div class="section gallery">
+        <div class="container">
+            <div class="card-columns">
+                <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="2000">
+                    <img src="assets/img/client2/pic_1.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card" data-aos="fade-down" data-aos-anchor-placement="top-center" data-aos-duration="2000">
+                    <img src="assets/img/client2/pic_2.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card" data-aos="fade-down" data-aos-anchor-placement="top-center" data-aos-duration="2000">
+                    <img src="assets/img/client2/pic_5.jpg" class="card-img" alt="...">
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="2000">
+                    <img src="assets/img/client2/pic_6.jpg" class="card-img" alt="...">
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="2000">
+                    <img src="assets/img/client2/pic_7.jpg" class="card-img" alt="...">
+                </div>
+                <div class="card" data-aos="fade-down" data-aos-anchor-placement="top-center" data-aos-duration="2000">
+                    <img src="assets/img/client2/pic_3.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- <section class="brown-vid section" id="video">
 		<div class="container">
 			<div class="row">
@@ -260,7 +286,8 @@
                         <div class="card" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                             <div class="card-body">
                                 <h2 class="calisto">Digital Envelope</h2>
-                                <p class="red"><span style="font-size:12px;">BCA: 0084042508</span></br>Anastya Hana Faridah</br></br><span style="font-size:12px;">BCA: 4490193591</span></br>Mukhammad Rifqi Almumtaz</p>
+                                <p class="red">BCA: 0084042508</br>Anastya Hana Faridah</br></br>
+                                    BCA: 4490193591</br>Mukhammad Rifqi Almumtaz</p>
                             </div>
                         </div>
                     </div>
@@ -268,7 +295,7 @@
                         <div class="card" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                             <div class="card-body">
                                 <h2 class="calisto">Shipment Address</h2>
-                                <p class="red_2">Jalan Wibawa Blk No. 8,</br> Kel. Pasteur,</br> Kec. Sukajadi,</br> Kota Bandung 40161
+                                <p class="red">Jalan Wibawa Blk No. 8,</br> Kel. Pasteur,</br> Kec. Sukajadi,</br> Kota Bandung 40161
                                     081321432862</p>
                             </div>
                         </div>
@@ -287,7 +314,7 @@
                 <h2 class="edward">Comments & Wishes</h2>
                 <div class="section">
                     <div class="col-md-12">
-                        <form id="contactForm" name="sentMessage" novalidate="novalidate" method="post" action="{{ route('design.client2_') }}">
+                        <form id="contactForm" name="sentMessage" novalidate="novalidate" method="post" action="{{ route('design.client21') }}">
                             {{ csrf_field() }}
                             <input class="form-control comment" id="nama" name="nama" type="text" placeholder="Nama" required="required" data-validation-required-message="Please enter your name.">
 

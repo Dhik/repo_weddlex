@@ -51,8 +51,7 @@ Maha suci Allah yang telah menjadikan segala sesuatu lebih indah dan sempurna.">
     <section id="home" class="main-banner start bg-client1-main">
         <div class="heading" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="3000">
             <!-- replace nama -->
-            <p class="balham guest" style="text-align:center;">for Mohammad Dhiki</p>
-            <p class="balham inpit" style="text-align:center;">you are invited</p>
+            <p class="balham inpit" style="text-align:center;">The Wedding of</p>
             <div class="container" style="text-align:center;">
                 <h1 class="edward">Anastya & Rifqi</h1>
             </div>

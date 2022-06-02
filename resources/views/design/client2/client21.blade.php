@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta property="og:image" content="assets/img/thumb.jpg">
     <meta property="og:title" content="Anastya & Rifqi - Weddlex">
     <meta property="og:description" content="السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
 
 Maha suci Allah yang telah menjadikan segala sesuatu lebih indah dan sempurna.">
+
     <title>Anastya & Rifqi - Weddlex</title>
     <link rel="icon" href="assets/img/logo.png">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -51,11 +53,14 @@ Maha suci Allah yang telah menjadikan segala sesuatu lebih indah dan sempurna.">
     <section id="home" class="main-banner start bg-client1-main">
         <div class="heading" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="3000">
             <!-- replace nama -->
-            <p class="balham guest" style="text-align:center;">for Mohammad Dhikri</p>
-            <p class="balham inpit" style="text-align:center;">you are invited</p>
+            <!-- <p class="balham guest" style="text-align:center;">for Mohammad Dhiki</p> -->
+            <p class="balham inpit" style="text-align:center;">The Wedding of</p>
             <div class="container" style="text-align:center;">
                 <h1 class="edward">Anastya & Rifqi</h1>
             </div>
+            <p class="calisto inv_head" style="text-align:center;">Kepada Bapak/Ibu/Saudara/i : </p>
+            <p class="balham inv_name" style="text-align:center;">Mohammad Dhikri</p>
+            <p class="calisto inv_foot" style="text-align:center;">Mohon maaf bila ada kesalahan pada penulisan nama/gelar</p>
             </br>
             <button id="myMusic" class="btn btn-primary toggle music">Open Invitation</button>
         </div>
@@ -319,7 +324,7 @@ Maha suci Allah yang telah menjadikan segala sesuatu lebih indah dan sempurna.">
                 <h2 class="edward">Comments & Wishes</h2>
                 <div class="section">
                     <div class="col-md-12">
-                        <form id="contactForm" name="sentMessage" novalidate="novalidate" method="post" action="{{ route('design.client21') }}">
+                        <form id="contactForm" name="sentMessage" novalidate="novalidate" method="post" action="{{ route('design.client2') }}">
                             {{ csrf_field() }}
                             <input class="form-control comment" id="nama" name="nama" type="text" placeholder="Nama" required="required" data-validation-required-message="Please enter your name.">
 

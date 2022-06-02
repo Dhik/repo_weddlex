@@ -88,3 +88,37 @@ Route::post('/anastya_&_rifqi_for_teratai_kuning', 'App\Http\Controllers\Client2
 
 Route::get('/anastya_&_rifqi_for_tiara_rizki', 'App\Http\Controllers\Client2@view_comment_10')->name('design.client210');
 Route::post('/anastya_&_rifqi_for_tiara_rizki', 'App\Http\Controllers\Client2@save_210');
+
+
+
+
+
+Route::get('/anastya_&_rifqi_for_fenda', 'App\Http\Controllers\Client2@view_comment_11')->name('design.client211');
+Route::post('/anastya_&_rifqi_for_fenda', 'App\Http\Controllers\Client2@save_211');
+
+Route::get('/anastya_&_rifqi_for_irma_rosaeni', 'App\Http\Controllers\Client2@view_comment_12')->name('design.client212');
+Route::post('/anastya_&_rifqi_for_irma_rosaeni', 'App\Http\Controllers\Client2@save_212');
+
+Route::get('/anastya_&_rifqi_for_margreth', 'App\Http\Controllers\Client2@view_comment_13')->name('design.client213');
+Route::post('/anastya_&_rifqi_for_margreth', 'App\Http\Controllers\Client2@save_213');
+
+Route::get('/anastya_&_rifqi_for_aghnia', 'App\Http\Controllers\Client2@view_comment_14')->name('design.client214');
+Route::post('/anastya_&_rifqi_for_aghnia', 'App\Http\Controllers\Client2@save_214');
+
+Route::get('/anastya_&_rifqi_for_abu_dhohir', 'App\Http\Controllers\Client2@view_comment_15')->name('design.client215');
+Route::post('/anastya_&_rifqi_for_abu_dhohir', 'App\Http\Controllers\Client2@save_215');
+
+Route::get('/anastya_&_rifqi_for_agung', 'App\Http\Controllers\Client2@view_comment_16')->name('design.client216');
+Route::post('/anastya_&_rifqi_for_agung', 'App\Http\Controllers\Client2@save_216');
+
+Route::get('/anastya_&_rifqi_for_rohimda', 'App\Http\Controllers\Client2@view_comment_17')->name('design.client217');
+Route::post('/anastya_&_rifqi_for_rohimda', 'App\Http\Controllers\Client2@save_217');
+
+Route::get('/anastya_&_rifqi_for_karin', 'App\Http\Controllers\Client2@view_comment_18')->name('design.client218');
+Route::post('/anastya_&_rifqi_for_karin', 'App\Http\Controllers\Client2@save_218');
+
+Route::get('/anastya_&_rifqi_for_bani', 'App\Http\Controllers\Client2@view_comment_19')->name('design.client219');
+Route::post('/anastya_&_rifqi_for_bani', 'App\Http\Controllers\Client2@save_219');
+
+Route::get('/anastya_&_rifqi_for_akmal', 'App\Http\Controllers\Client2@view_comment_20')->name('design.client220');
+Route::post('/anastya_&_rifqi_for_akmal', 'App\Http\Controllers\Client2@save_220');

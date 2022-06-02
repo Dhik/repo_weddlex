@@ -219,4 +219,188 @@ class Client2 extends Controller
         // $data = Comment::latest()->where('id_wedding',2)->take(5)->get();
         return view('design.client2.client210');
     }
+
+
+
+
+
+    public function save_11(Request $req)
+    {
+        $result = new Comment;
+        $result->nama = $req->nama;
+        $result->comment = $req->comment;
+        $result->id_wedding = 2;
+        if ($result->save()) {
+            return redirect()->route('design.client211');
+        } else {
+            return back();
+        }
+    }
+    public function view_comment_11()
+    {
+        // $data = Comment::latest()->where('id_wedding',2)->take(5)->get();
+        return view('design.client2.client211');
+    }
+
+    public function save_12(Request $req)
+    {
+        $result = new Comment;
+        $result->nama = $req->nama;
+        $result->comment = $req->comment;
+        $result->id_wedding = 2;
+        if ($result->save()) {
+            return redirect()->route('design.client212');
+        } else {
+            return back();
+        }
+    }
+    public function view_comment_12()
+    {
+        // $data = Comment::latest()->where('id_wedding',2)->take(5)->get();
+        return view('design.client2.client212');
+    }
+
+    public function save_13(Request $req)
+    {
+        $result = new Comment;
+        $result->nama = $req->nama;
+        $result->comment = $req->comment;
+        $result->id_wedding = 2;
+        if ($result->save()) {
+            return redirect()->route('design.client213');
+        } else {
+            return back();
+        }
+    }
+    public function view_comment_13()
+    {
+        // $data = Comment::latest()->where('id_wedding',2)->take(5)->get();
+        return view('design.client2.client213');
+    }
+
+    public function save_14(Request $req)
+    {
+        $result = new Comment;
+        $result->nama = $req->nama;
+        $result->comment = $req->comment;
+        $result->id_wedding = 2;
+        if ($result->save()) {
+            return redirect()->route('design.client214');
+        } else {
+            return back();
+        }
+    }
+    public function view_comment_14()
+    {
+        // $data = Comment::latest()->where('id_wedding',2)->take(5)->get();
+        return view('design.client2.client214');
+    }
+
+    public function save_15(Request $req)
+    {
+        $result = new Comment;
+        $result->nama = $req->nama;
+        $result->comment = $req->comment;
+        $result->id_wedding = 2;
+        if ($result->save()) {
+            return redirect()->route('design.client215');
+        } else {
+            return back();
+        }
+    }
+    public function view_comment_15()
+    {
+        // $data = Comment::latest()->where('id_wedding',2)->take(5)->get();
+        return view('design.client2.client215');
+    }
+
+    public function save_16(Request $req)
+    {
+        $result = new Comment;
+        $result->nama = $req->nama;
+        $result->comment = $req->comment;
+        $result->id_wedding = 2;
+        if ($result->save()) {
+            return redirect()->route('design.client216');
+        } else {
+            return back();
+        }
+    }
+    public function view_comment_16()
+    {
+        // $data = Comment::latest()->where('id_wedding',2)->take(5)->get();
+        return view('design.client2.client216');
+    }
+
+    public function save_17(Request $req)
+    {
+        $result = new Comment;
+        $result->nama = $req->nama;
+        $result->comment = $req->comment;
+        $result->id_wedding = 2;
+        if ($result->save()) {
+            return redirect()->route('design.client217');
+        } else {
+            return back();
+        }
+    }
+    public function view_comment_17()
+    {
+        // $data = Comment::latest()->where('id_wedding',2)->take(5)->get();
+        return view('design.client2.client217');
+    }
+
+    public function save_18(Request $req)
+    {
+        $result = new Comment;
+        $result->nama = $req->nama;
+        $result->comment = $req->comment;
+        $result->id_wedding = 2;
+        if ($result->save()) {
+            return redirect()->route('design.client218');
+        } else {
+            return back();
+        }
+    }
+    public function view_comment_18()
+    {
+        // $data = Comment::latest()->where('id_wedding',2)->take(5)->get();
+        return view('design.client2.client218');
+    }
+
+    public function save_19(Request $req)
+    {
+        $result = new Comment;
+        $result->nama = $req->nama;
+        $result->comment = $req->comment;
+        $result->id_wedding = 2;
+        if ($result->save()) {
+            return redirect()->route('design.client219');
+        } else {
+            return back();
+        }
+    }
+    public function view_comment_19()
+    {
+        // $data = Comment::latest()->where('id_wedding',2)->take(5)->get();
+        return view('design.client2.client219');
+    }
+
+    public function save_20(Request $req)
+    {
+        $result = new Comment;
+        $result->nama = $req->nama;
+        $result->comment = $req->comment;
+        $result->id_wedding = 2;
+        if ($result->save()) {
+            return redirect()->route('design.client220');
+        } else {
+            return back();
+        }
+    }
+    public function view_comment_20()
+    {
+        // $data = Comment::latest()->where('id_wedding',2)->take(5)->get();
+        return view('design.client2.client220');
+    }
 }

@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="assets/img/thumb.jpg">
+    <meta property="og:title" content="Anastya & Rifqi - Weddlex">
+    <meta property="og:description" content="السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
+
+Maha suci Allah yang telah menjadikan segala sesuatu lebih indah dan sempurna.">
     <title>Anastya & Rifqi - Weddlex</title>
     <link rel="icon" href="assets/img/logo.png">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">

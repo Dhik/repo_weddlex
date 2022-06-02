@@ -59,7 +59,7 @@ Maha suci Allah yang telah menjadikan segala sesuatu lebih indah dan sempurna.">
                 <h1 class="edward">Anastya & Rifqi</h1>
             </div>
             <p class="calisto inv_head" style="text-align:center;">Kepada Bapak/Ibu/Saudara/i : </p>
-            <p class="balham inv_name" style="text-align:center;">Maivenny</p>
+            <p class="balham inv_name" style="text-align:center;">Karim</p>
             <p class="calisto inv_foot" style="text-align:center;">Mohon maaf bila ada kesalahan pada penulisan nama/gelar</p>
             </br>
             <button id="myMusic" class="btn btn-primary toggle music">Open Invitation</button>
@@ -324,7 +324,7 @@ Maha suci Allah yang telah menjadikan segala sesuatu lebih indah dan sempurna.">
                 <h2 class="edward">Comments & Wishes</h2>
                 <div class="section">
                     <div class="col-md-12">
-                        <form id="contactForm" name="sentMessage" novalidate="novalidate" method="post" action="{{ route('design.client21') }}">
+                        <form id="contactForm" name="sentMessage" novalidate="novalidate" method="post" action="{{ route('design.client26') }}">
                             {{ csrf_field() }}
                             <input class="form-control comment" id="nama" name="nama" type="text" placeholder="Nama" required="required" data-validation-required-message="Please enter your name.">
 

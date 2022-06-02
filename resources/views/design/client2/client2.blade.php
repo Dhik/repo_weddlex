@@ -42,11 +42,11 @@ Maha suci Allah yang telah menjadikan segala sesuatu lebih indah dan sempurna.">
 
     <section id="home" class="main-banner2 navigation bg-client1-main">
         <div class="heading" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="3000">
-            <p class="balham" style="text-align:center;">The Wedding of</p>
+            <p class="balham" style="text-align:center;">We Are Getting Married</p>
             <div class="container" style="text-align:center;">
                 <h1 class="edward">Anastya & Rifqi</h1>
             </div>
-            <!-- <h3 class="balham date">27 . 02 . 2022</h3> -->
+            <h3 class="balham date">11 . 06 . 2022</h3>
         </div>
     </section>
 

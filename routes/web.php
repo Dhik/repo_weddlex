@@ -122,3 +122,10 @@ Route::post('/anastya_&_rifqi_for_bani', 'App\Http\Controllers\Client2@save_219'
 
 Route::get('/anastya_&_rifqi_for_akmal', 'App\Http\Controllers\Client2@view_comment_20')->name('design.client220');
 Route::post('/anastya_&_rifqi_for_akmal', 'App\Http\Controllers\Client2@save_220');
+
+
+Route::get('/hani_&_arief', 'App\Http\Controllers\Hani@view_comment')->name('design.hani');
+Route::post('/hani_&_arief', 'App\Http\Controllers\Hani@save');
+
+Route::get('/umi_&_hadi', 'App\Http\Controllers\Umi@view_comment')->name('design.umi');
+Route::post('/umi_&_hadi', 'App\Http\Controllers\Umi@save');

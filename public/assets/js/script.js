@@ -23,9 +23,6 @@ include('js/jquery.easing.1.3.js');
     if (o.hasClass('desktop')) {
         include('js/tmstickup.js');
 
-        $(document).ready(function () {
-            $('#stuck_container').TMStickUp({})
-        });
     }
 })(jQuery);
 
@@ -37,9 +34,6 @@ include('js/jquery.easing.1.3.js');
     if (o.hasClass('desktop')) {
         include('js/jquery.ui.totop.js');
 
-        $(document).ready(function () {
-            $().UItoTop({easingType: 'easeOutQuart'});
-        });
     }
 })(jQuery);
 
@@ -62,12 +56,6 @@ include('js/jquery.easing.1.3.js');
         include('js/jquery.mousewheel.min.js');
         include('js/jquery.simplr.smoothscroll.min.js');
 
-        $(document).ready(function () {
-            $.srSmoothscroll({
-                step: 150,
-                speed: 800
-            });
-        });
     }
 })(jQuery);
 
@@ -117,10 +105,6 @@ $(document).ready(function () {
     if ((navigator.userAgent.toLowerCase().indexOf('msie') == -1 ) || (isIE() && isIE() > 9)) {
         if (o.hasClass('desktop')) {
             include('js/wow.js');
-
-            $(document).ready(function () {
-                new WOW().init();
-            });
         }
     }
 })(jQuery);
